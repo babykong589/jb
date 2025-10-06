@@ -1,0 +1,90 @@
+header {
+  background-color: bisque;
+  font-family: "Story Script", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Bonheur Royale", cursive;
+  background-color: bisque;
+}
+
+:hover h1 {
+  color: rgb(134, 5, 76);
+}
+
+.Contact a {
+  color: rgb(148, 7, 101);
+}
+
+.nav {
+  font-size: 24px;
+}
+
+.Me {
+  border: groove;
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+  margin: auto;
+}
+
+.Me img {
+  transition: transform 0.8s ease-in-out;
+  object-fit: cover;
+}
+
+:hover.Me img {
+  transform: scale(1.1);
+  opacity: 90%;
+}
+
+.jr {
+  text-decoration: underline;
+}
+.About {
+  text-align: center;
+}
+.summary {
+  margin: 10px;
+  padding: 10px;
+}
+
+.end {
+  background-color: bisque;
+  display: grid;
+
+  padding-top: 20px;
+}
+.Contact {
+  background-color: bisque;
+  padding-left: 20px;
+  border-top: groove;
+}
+
+footer {
+  text-align: center;
+  font-weight: bolder;
+  background-color: bisque;
+}
+
+h5 {
+  font-family: "Story Script", sans-serif;
+  background-color: bisque;
+}
+
+h5 {
+  text-decoration-line: underline;
+}
+
+.end {
+  text-align: center;
+  text-decoration-line: underline;
+}
